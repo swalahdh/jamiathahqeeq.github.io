@@ -36,13 +36,48 @@ Author URL: http://w3layouts.com
 </section> -->
 <!-- //Top Menu 1 -->
 
-<?php
+<section class="w3l-bootstrap-header">
+  <nav class="navbar navbar-expand-lg navbar-light py-lg-2 py-2">
+    <div class="container">
+      <!-- <a class="navbar-brand" href="index.html"><span class="fa fa-pencil-square-o "></span> Mastery</a> -->
+      <!-- if logo is image enable this    -->
+    <a class="navbar-brand" href="index.html">
+        <img src="assets/images/logo.png" alt="Your logo" title="Your logo" style="width: 200px;" />
+    </a> 
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon fa fa-bars"></span>
+      </button>
 
-include "header.php"; // Using database connection file here
-
-
-
-?>   
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item ">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+           <li class="nav-item">
+            <a class="nav-link" href="admission.html">Admission</a>
+          </li>
+            <li class="nav-item">
+            <a class="nav-link" href="exam.html">Exam</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="gallery.html">gallery</a>
+          </li>
+        </ul>
+        <form action="search-results.html" class="form-inline position-relative my-2 my-lg-0">
+          <input class="form-control search" type="search" placeholder="Search here..." aria-label="Search" required="">
+          <button class="btn btn-search position-absolute" type="submit"><span class="fa fa-search" aria-hidden="true"></span></button>
+        </form>
+      </div>
+    </div>
+  </nav>
+</section>
 
 
 
@@ -430,14 +465,93 @@ include "header.php"; // Using database connection file here
       </section>
       </section> -->
 <!-- grids block 5 -->
-<?php
+<section class="w3l-footer-29-main">
+  <div class="footer-29">
+      <div class="container">
+          <div class="d-grid grid-col-4 footer-top-29">
+              <div class="footer-list-29 footer-1">
+                  <h6 class="footer-title-29">Contact Us</h6>
+                  <ul>
+                      <li><p><span class="fa fa-map-marker"></span> PERINKALLERI ABDULLAH MUSLIYAR SMARAKA ACADEMY(PASA TRUST) Salamath Nagar, Mathamkulam,Kondotty Karippur (PO) Malappuram (DT) Kerala India 673638,</p></li>
+                      <li><a href="tel:+7-800-999-800"><span class="fa fa-phone"></span>9847771011</a></li>
+                      <li><a href="mailto:corporate-mail@support.com" class="mail"><span class="fa fa-envelope-open-o"></span>thahqeeqiluloomislamiyya@gmail.com                      </a></li>
+                  </ul>
+                  <div class="main-social-footer-29">
+                    <a href="https://www.facebook.com/jamiathahqeeq" class="facebook"><span class="fa fa-facebook"></span></a>
+                    <a href="https://twitter.com/thahqeeq" class="twitter"><span class="fa fa-twitter"></span></a>
+                    <a href="https://www.instagram.com/jamia_thahqeeq?r=nametag" class="instagram"><span class="fa fa-instagram"></span></a>
+                    <a href="#google-plus" class="google-plus"><span class="fa fa-google-plus"></span></a>
+                    <a href="https://www.linkedin.com/in/thahqeeqiluloom-islamiyya-09491920b/" class="linkedin"><span class="fa fa-linkedin"></span></a>
+                </div>
+              </div>
+              <div class="footer-list-29 footer-2">
+                  <ul>
+                      <h6 class="footer-title-29">Featured Links</h6>
+                      <li><a href="admission.html">Admission</a></li>
+                      <li><a href="exam.html">Exam</a></li>
+                      <li><a href="##">Downloads</a></li>
+                      <li><a href="##">Locate us</a></li>
+                      <li><a href="##">Courses</a></li>
+                  </ul>
+              </div>
+              <div class="footer-list-29 footer-3">
+                 
+                  <h6 class="footer-title-29">Newsletter </h6>
+          <form action="#" class="subscribe" method="post">
+            <input type="email" name="email" placeholder="Email" required="">
+            <button><span class="fa fa-envelope-o"></span></button>
+          </form>
+          <!-- <p>Subscribe and get our weekly newsletter</p>
+          <p>We'll never share your email address</p> -->
+        
+              </div>
+              <div class="footer-list-29 footer-4">
+                  <ul>
+                      <h6 class="footer-title-29">Quick Links</h6>
+                      <li><a href="index.html">Home</a></li>
+                      <li><a href="about.html">About</a></li>
+                      <li><a href="exam.html">Exam</a></li>
+                      <li><a href="contact.html"> Contact</a></li>
+                      <li><a href="gallery.html">Gallery</a></li>
+                  </ul>
+              </div>
+          </div>
+          <div class="d-grid grid-col-2 bottom-copies">
+              <p class="copy-footer-29">© 2020 thahqeeqiluloomislamiyya. All rights reserved | Designed by <a href="http://cpcreatives.unaux.com/?i=1">CPcreatives</a></p>
+               <ul class="list-btm-29">
+                      <li><a href="#link">Privacy policy</a></li>
+                      <li><a href="#link">Terms of service</a></li>
+                      
+                  </ul>
+          </div>
+      </div>
+  </div>
+  <!-- move top -->
+  <button onclick="topFunction()" id="movetop" title="Go to top">
+    <span class="fa fa-angle-up"></span>
+  </button>
+  <script>
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function () {
+      scrollFunction()
+    };
 
-include "footer.php"; // Using database connection file here
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("movetop").style.display = "block";
+      } else {
+        document.getElementById("movetop").style.display = "none";
+      }
+    }
 
-
-
-?>   
-
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+  </script>
+  <!-- /move top -->
+</section>
 <script>
   $(function () {
     $('.navbar-toggler').click(function () {
