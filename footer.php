@@ -20,8 +20,8 @@
               <div class="footer-list-29 footer-2">
                   <ul>
                       <h6 class="footer-title-29">Featured Links</h6>
-                      <li><a href="admission.php">Admission</a></li>
-                      <li><a href="exam.php">Exam</a></li>
+                      <li><a href="admission.html">Admission</a></li>
+                      <li><a href="exam.html">Exam</a></li>
                       <li><a href="##">Downloads</a></li>
                       <li><a href="##">Locate us</a></li>
                       <li><a href="##">Courses</a></li>
@@ -41,11 +41,11 @@
               <div class="footer-list-29 footer-4">
                   <ul>
                       <h6 class="footer-title-29">Quick Links</h6>
-                      <li><a href="index.php">Home</a></li>
-                      <li><a href="about.php">About</a></li>
-                      <li><a href="exam.php">Exam</a></li>
-                      <li><a href="contact.php"> Contact</a></li>
-                      <li><a href="gallery.php">Gallery</a></li>
+                      <li><a href="index.html">Home</a></li>
+                      <li><a href="about.html">About</a></li>
+                      <li><a href="exam.html">Exam</a></li>
+                      <li><a href="contact.html"> Contact</a></li>
+                      <li><a href="gallery.html">Gallery</a></li>
                   </ul>
               </div>
           </div>

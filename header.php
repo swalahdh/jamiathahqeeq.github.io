@@ -3,7 +3,7 @@
     <div class="container">
       <!-- <a class="navbar-brand" href="index.html"><span class="fa fa-pencil-square-o "></span> Mastery</a> -->
       <!-- if logo is image enable this    -->
-    <a class="navbar-brand" href="index.php">
+    <a class="navbar-brand" href="index.html">
         <img src="assets/images/logo.png" alt="Your logo" title="Your logo" style="width: 200px;" />
     </a> 
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -14,22 +14,22 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mx-auto">
           <li class="nav-item ">
-            <a class="nav-link" href="index.php">Home</a>
+            <a class="nav-link" href="index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="about.php">About</a>
+            <a class="nav-link" href="about.html">About</a>
           </li>
            <li class="nav-item">
-            <a class="nav-link" href="admission.php">Admission</a>
+            <a class="nav-link" href="admission.html">Admission</a>
           </li>
             <li class="nav-item">
-            <a class="nav-link" href="exam.php">Exam</a>
+            <a class="nav-link" href="exam.html">Exam</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="contact.php">Contact</a>
+            <a class="nav-link" href="contact.html">Contact</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="gallery.php">gallery</a>
+            <a class="nav-link" href="gallery.html">gallery</a>
           </li>
         </ul>
         <form action="search-results.html" class="form-inline position-relative my-2 my-lg-0">
